@@ -10,7 +10,7 @@
             table.append("<tr><td>Login:</td><td>" + result["login"] + "</td></tr>");
             table.append("<tr><td>Id:</td><td>" + result["id"] + "</td></tr>");
             table.append("<tr><td>Git Link:</td><td>" + result["html_url"] +"</td></tr>");
-            table.append("<tr><td>Avatar:</td><td>" +"<img src="+result["avatar_url"] +"></td></tr>")
+            table.append("<tr><td>Avatar:</td><td>" +"<img style='width:150px;height:150px;' src="+result["avatar_url"] +"></td></tr>")
             $("#message").html(table);
         },
         error: function (xhr, status, error) {
