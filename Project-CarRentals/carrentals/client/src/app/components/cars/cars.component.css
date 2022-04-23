@@ -1,0 +1,14 @@
+.searchInput {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.sort-section {
+  justify-content: space-around;
+}
+
+.sort-section>li>a {
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
